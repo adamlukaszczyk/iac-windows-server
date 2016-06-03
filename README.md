@@ -1,13 +1,13 @@
-***Windows Server 2013 provisioned with Vagrant, Puppet and Chocolatey
+#Windows Server 2013 provisioned with Vagrant, Puppet and Chocolatey
 
 Provisioning boilerplate for Windows projects. Fork it and provision your stuff with ease.
 
-**Preinstalled
+###Preinstalled
 
 - Git
 - .Net4.5
 
-**Help resources:
+###Help resources:
 - http://digitaldrummerj.me//vagrant-overview/
 - https://github.com/tzehon/vagrant-windows
 - https://github.com/chocolatey/puppet-chocolatey
