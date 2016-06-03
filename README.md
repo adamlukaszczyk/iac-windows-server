@@ -10,5 +10,6 @@ Provisioning boilerplate for Windows projects. Fork it and provision your stuff 
 **Help resources:
 - http://digitaldrummerj.me//vagrant-overview/
 - https://github.com/tzehon/vagrant-windows
+- https://github.com/chocolatey/puppet-chocolatey
 - https://chocolatey.org/packages
 - https://tickets.puppetlabs.com/browse/PUP-2365

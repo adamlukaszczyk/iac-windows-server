@@ -7,7 +7,7 @@ Vagrant.configure(2) do |config|
   # boxes at https://atlas.hashicorp.com/search.
   config.vm.box = "opentable/win-2012r2-standard-amd64-nocm"
   config.vm.communicator = "winrm"
-  config.vm.hostname = "XedoDev"	
+  config.vm.hostname = "dev"	
   
   # Create a private network, which allows host-only access to the machine
   # using a specific IP.
@@ -16,7 +16,10 @@ Vagrant.configure(2) do |config|
   config.vm.provision :shell, path: "shell/main.cmd"
   
   config.vm.provision :puppet do |puppet|
-    puppet.manifests_path = ""
-    puppet.manifest_file  = "base.pp"
+    puppet.manifests_path = "puppet/manifests"
+    puppet.module_path = "puppet/modules"
+    puppet.manifest_file  = "init.pp"
+    puppet.options="--verbose --debug"
   end
+  
 end
