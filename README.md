@@ -6,6 +6,9 @@ Provisioning boilerplate for Windows projects. Fork it and provision your stuff 
 
 - Git
 - .Net4.5
+- Visual Studio 2013 (takes 20min to provision)
+- MsSQL
+- Node.js
 
 ###Help resources:
 - http://digitaldrummerj.me//vagrant-overview/
